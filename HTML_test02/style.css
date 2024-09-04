@@ -1,0 +1,6 @@
+td, th {
+    border: 1px solid #000;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
