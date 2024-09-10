@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial scale=1.0">
+        <title>Nettsidemal</title>
+    </head>
+    <body>
+        <header>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="kontaktoss.html">Kontakt oss</a></li>
+                    <li><a href="nettsidemal.html">Nettside-mal</a></li>
+                    <li><a href="oppgave1.html">Valideringsoppgave</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            
+        </aside>
+        <main>
+            <h1>Brukerskjema</h1>
+            <form>
+                <label>Navn: 
+                <input type="text" name="name" pattern="[A-Za-zæøåÆØÅ ]{2,}" placeholder="Navn">
+                </label>
+
+                <label>E-mail: 
+                <input type="email" required name="email" placeholder="E-mail">
+                </label>
+
+                <label>Passord: 
+                <input type="password" name="password" placeholder="********" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                </label>
+
+                <label>Alder: 
+                <input type="number" name="age" placeholder="Alder" min="18" max="99" required>
+                </label>
+
+                <label>Telefonnummer: 
+                <input type="tel" name="phonenumber" placeholder="Telefonnummer" pattern="[0-9]{8,12}" required>
+                </label>
+
+                <label>Fødselsdato: 
+                <input type="date" name="birthdate" max="2023-12-31" required>
+                </label>
+
+                <label>
+                    Mann 
+                    <input type="radio" name="kjønn" required>
+                </label>
+
+                <label>    
+                    Kvinne
+                    <input type="radio" name="kjønn" required>
+                </label>
+
+                <label>    
+                    Annet
+                    <input type="radio" name="kjønn" required>
+                </label>
+                    <!--bruker name for at radioknappene skal være koblet sammen-->
+                
+                <label>
+                    Land
+                    <select name="country" required>
+                        <option>Velg land</option>
+                        <option value="norge">Norge</option>
+                        <option value="sverige">Sverige</option>
+                        <option value="danmark">Danmark</option>
+                    </select>
+                </label>
+                    "Jeg samtykker at mine data kan bli brukt til bla bla"
+                    <input type="checkbox" name="tos" required>
+                <label>
+                    <input type="submit" value="Send inn">
+                </label>
+            </form>
+        </main>
+        <footer>
+            <p><a href="mailto:epost@domain.com">Kontakt meg på epost: miranj@hiof.no</a></p>
+            <h3>2024 Miran</h3>
+        </footer>
+    </body>
+</html>
