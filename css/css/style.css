@@ -1,0 +1,33 @@
+body{
+    font-family: arial, helvetica, sans-serif
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+h1{
+    color: rgb(186, 85, 211);
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:aquamarine;
+    padding: 2rem
+}
+
+a{
+    text-decoration: none;
+    font-size:18px;
+}
+
+a.btn{
+    background-color: rgb(125, 125, 154);
+    color: rgb(85, 211, 127);
+    padding: 2rem;
+    display: inline-block;
+    margin: 10px 5px 5px 3px;
+    /*følger klokka*/
+}
+
